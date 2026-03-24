@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Çınar Ağacım — Gayrimenkul Danışmanlığı</title>
+  <meta name="description" content="Çınar Ağacım — Elif Tunceroğlu. Antalya ve Türkiye genelinde profesyonel gayrimenkul danışmanlığı. Keller Williams." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-main">
+          <svg class="logo-tree" viewBox="0 0 24 30" width="18" height="22" fill="currentColor" aria-hidden="true"><path d="M12 1C8.5 4 5 7.5 5 13c0 3.5 2 6.5 5 8.2V27a1.5 1.5 0 003 0v-5.8c3-1.7 5-4.7 5-8.2 0-5.5-3.5-9-6-12z" opacity="0.85"/><path d="M12 8c-1.5 1.5-3.5 3.5-3.5 7 0 2 1 3.8 2.5 5v-5a1 1 0 012 0v5c1.5-1.2 2.5-3 2.5-5 0-3.5-2-5.5-3.5-7z" fill="rgba(255,255,255,0.2)"/></svg>
+          Çınar Ağacım
+        </span>
+        <span class="logo-sub" data-i18n="logo.sub">Gayrimenkul Danışmanlığı</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link" data-i18n="nav.home">Ana Sayfa</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="nav.about">Hakkımda</a></li>
+        <li><a href="#services" class="nav-link" data-i18n="nav.services">Hizmetler</a></li>
+        <li><a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">Portföy</a></li>
+        <li><a href="#appointment" class="nav-link" data-i18n="nav.appointment">Randevu</a></li>
+        <li><a href="#testimonials" class="nav-link" data-i18n="nav.testimonials">Referanslar</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="nav.contact">İletişim</a></li>
+        <li><button class="lang-btn" id="langToggle">EN / TR</button></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up" data-delay="0" data-i18n="hero.eyebrow">Antalya · Türkiye · Dünya</p>
+      <h1 class="hero-title reveal-up" data-delay="1">
+        <span>Çınar Ağacım</span>
+        <em data-i18n="hero.subtitle">Gayrimenkul</em>
+      </h1>
+      <p class="hero-tagline reveal-up" data-delay="2" data-i18n="hero.tagline">
+        Hayalinizdeki Mülkü Gerçeğe Dönüştürüyorum
+      </p>
+      <a href="#portfolio" class="btn-gold reveal-up" data-delay="3" data-i18n="hero.cta">Portföyü İncele</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span data-i18n="hero.scroll">Kaydır</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about">
+    <div class="section-container">
+      <div class="about-grid">
+
+        <!-- Left: Photo -->
+        <div class="about-photo-wrap reveal-left">
+          <img
+            src="Anne Foto.png"
+            alt="Elif Tunceroğlu — Çınar Ağacım Gayrimenkul Danışmanı"
+            class="about-photo"
+          />
+          <div class="about-photo-badge">
+            <span class="badge-num">50+</span>
+            <span class="badge-label" data-i18n="about.badge">Başarılı Satış</span>
+          </div>
+        </div>
+
+        <!-- Right: Bio -->
+        <div class="about-text reveal-right">
+          <p class="section-eyebrow" data-i18n="about.eyebrow">Hakkımda</p>
+          <h2 class="section-title" data-i18n="about.title">Güven ve Profesyonellik<br /><em>Üzerine Kurulu</em></h2>
+
+          <div class="about-kw-badge">
+            <span class="kw-logo">KW</span>
+            <div>
+              <span class="kw-name">Keller Williams</span>
+              <span class="kw-role" data-i18n="about.kw_role">Gayrimenkul Danışmanı</span>
+            </div>
+          </div>
+
+          <p class="about-bio" data-i18n="about.bio1">
+            Antalya'nın en dinamik gayrimenkul pazarında edindiğim tecrübe ve bilgi birikimimle, her müşterime özel, kişiye özel çözümler sunuyorum. Muratpaşa'dan Konyaaltı'na, Kepez'den Lara'ya, Belek'ten Kaleiçi'ne kadar geniş bir portföyle hizmet veriyorum.
+          </p>
+          <p class="about-bio" data-i18n="about.bio2">
+            İster ilk evini alan bir aile, ister deneyimli bir yatırımcı, isterse Türkiye'de yaşam alanı arayan uluslararası bir müşteri olun — vizyonunuza uygun en doğru mülkü bulmak ve sürecin her aşamasında yanınızda olmak benim önceliğimdir.
+          </p>
+
+          <!-- Stats row -->
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">50+</span>
+              <span class="stat-label" data-i18n="about.stat1">Satılan Mülk</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">10+</span>
+              <span class="stat-label" data-i18n="about.stat2">Yetkili Portföy</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label" data-i18n="about.stat3">Müşteri Memnuniyeti</span>
+            </div>
+          </div>
+
+          <!-- Past projects -->
+          <div class="about-projects">
+            <p class="projects-label" data-i18n="about.projects_title">Öne Çıkan Başarılar</p>
+            <div class="projects-list">
+              <div class="project-tag" data-i18n="tag.p1">Deniz Manzaralı Villa, Lara</div>
+              <div class="project-tag" data-i18n="tag.p2">Rezidans Daire, Konyaaltı</div>
+              <div class="project-tag" data-i18n="tag.p3">Yatırımlık Arsa, Belek</div>
+              <div class="project-tag" data-i18n="tag.p4">Butik Otel Projesi, Kaleiçi</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section id="services">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow" data-i18n="services.eyebrow">Hizmetlerimiz</p>
+        <h2 class="section-title" data-i18n="services.title">Profesyonel <em>Hizmetler</em></h2>
+        <p class="section-subtitle" data-i18n="services.subtitle">Gayrimenkul sürecinizin her aşamasında yanınızdayım.</p>
+      </div>
+
+      <div class="services-grid reveal-up">
+        <div class="service-card">
+          <span class="service-icon">&#127968;</span>
+          <h3 class="service-title" data-i18n="services.s1_title">Satış Danışmanlığı</h3>
+          <p class="service-desc" data-i18n="services.s1_desc">Mülkünüzü en doğru fiyatla, en kısa sürede satmanız için profesyonel pazarlama ve müzakere desteği sunuyorum.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">&#128197;</span>
+          <h3 class="service-title" data-i18n="services.s2_title">Kiralama Hizmetleri</h3>
+          <p class="service-desc" data-i18n="services.s2_desc">Uzun ve kısa dönem kiralama süreçlerinde, doğru kiracı eşleştirmesi ve sözleşme yönetimi ile yanınızdayım.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">&#128200;</span>
+          <h3 class="service-title" data-i18n="services.s3_title">Yatırım Danışmanlığı</h3>
+          <p class="service-desc" data-i18n="services.s3_desc">Gayrimenkul yatırımınızı en verimli şekilde değerlendirmeniz için piyasa analizi ve portföy önerileri sunuyorum.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">&#127758;</span>
+          <h3 class="service-title" data-i18n="services.s4_title">Uluslararası Alıcı Hizmetleri</h3>
+          <p class="service-desc" data-i18n="services.s4_desc">Yabancı yatırımcılara Türkçe ve İngilizce destek, tapu işlemleri rehberliği ve ikamet süreçlerinde yardım sağlıyorum.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">&#128221;</span>
+          <h3 class="service-title" data-i18n="services.s5_title">Tapu İşlemleri Desteği</h3>
+          <p class="service-desc" data-i18n="services.s5_desc">Satış ve devir süreçlerinde tapu müdürlüğü işlemlerini sizin adınıza takip ediyor, hukuki süreçlerde rehberlik sunuyorum.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-icon">&#128269;</span>
+          <h3 class="service-title" data-i18n="services.s6_title">Mülk Değerleme</h3>
+          <p class="service-desc" data-i18n="services.s6_desc">Güncel piyasa verileri ve bölgesel analizlerle mülkünüzün gerçek piyasa değerini belirlemek için uzman değerleme hizmeti sunuyorum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== NEDEN BEN ==================== -->
+  <section id="why-me">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow" data-i18n="why.eyebrow">Neden Çınar Ağacım?</p>
+        <h2 class="section-title" data-i18n="why.title">Farkımız <em>Ne?</em></h2>
+        <p class="section-subtitle" data-i18n="why.subtitle">Müşterilerim beni tercih etmeye devam ediyor çünkü...</p>
+      </div>
+
+      <div class="why-grid reveal-up">
+        <div class="why-card">
+          <div class="why-num">01</div>
+          <h3 class="why-card-title" data-i18n="why.c1_title">Kişisel İlgi</h3>
+          <p class="why-card-desc" data-i18n="why.c1_desc">Her müşterime birebir, özel ilgi gösteriyorum. Sizin ihtiyaçlarınız benim önceliğimdir.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">02</div>
+          <h3 class="why-card-title" data-i18n="why.c2_title">Bölge Bilgisi</h3>
+          <p class="why-card-desc" data-i18n="why.c2_desc">Antalya'nın her semtini, her mahallesini tanıyorum. Muratpaşa'dan Kepez'e, Konyaaltı'ndan Belek'e kadar.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">03</div>
+          <h3 class="why-card-title" data-i18n="why.c3_title">Dürüst Fiyatlama</h3>
+          <p class="why-card-desc" data-i18n="why.c3_desc">Piyasadaki gerçek değeri söylerim. Abartısız, şeffaf ve güvenilir fiyat değerlendirmesi.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">04</div>
+          <h3 class="why-card-title" data-i18n="why.c4_title">7/24 Ulaşılabilirlik</h3>
+          <p class="why-card-desc" data-i18n="why.c4_desc">WhatsApp, telefon veya e-posta — her zaman ulaşabilirsiniz. Hızlı dönüş garantisi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PORTFOLIO ==================== -->
+  <section id="portfolio">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow" data-i18n="portfolio.eyebrow">Portföyümüz</p>
+        <h2 class="section-title" data-i18n="portfolio.title">Seçkin <em>Mülkler</em></h2>
+        <p class="section-subtitle" data-i18n="portfolio.subtitle">Antalya ve Türkiye genelinde daire, villa, dükkan ve otel seçenekleri.</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="portfolio-filters reveal-up" id="portfolioFilters">
+        <button class="filter-btn active" data-filter="all" data-i18n="portfolio.filter_all">Tümü</button>
+        <button class="filter-btn" data-filter="apartment" data-i18n="portfolio.filter_apt">Daire</button>
+        <button class="filter-btn" data-filter="villa" data-i18n="portfolio.filter_villa">Villa</button>
+        <button class="filter-btn" data-filter="shop" data-i18n="portfolio.filter_shop">Dükkan</button>
+        <button class="filter-btn" data-filter="hotel" data-i18n="portfolio.filter_hotel">Otel</button>
+      </div>
+
+      <!-- Property grid — populated by JS -->
+      <div class="property-grid" id="propertyGrid"></div>
+
+    </div>
+  </section>
+
+  <!-- ==================== APPOINTMENT ==================== -->
+  <section id="appointment">
+    <div class="appointment-bg"></div>
+    <div class="appointment-overlay"></div>
+    <div class="section-container appointment-inner">
+      <div class="appointment-text reveal-up">
+        <p class="section-eyebrow light" data-i18n="appointment.eyebrow">Birebir Görüşme</p>
+        <h2 class="section-title light" data-i18n="appointment.title">Özel Randevu<br /><em>Oluşturun</em></h2>
+        <p class="appt-desc" data-i18n="appointment.desc">
+          Seçeneklerinizi keşfetmek, hedeflerinizi konuşmak ve size tamamen özel, uzman tavsiyesi almak için benimle bir görüşme ayarlayın.
+        </p>
+        <ul class="appt-features">
+          <li data-i18n="appointment.feat1">&#10022; Yüzyüze veya görüntülü arama</li>
+          <li data-i18n="appointment.feat2">&#10022; Türkçe ve İngilizce dil seçeneği</li>
+          <li data-i18n="appointment.feat3">&#10022; Gizlilik garantisi</li>
+        </ul>
+      </div>
+
+      <form class="appointment-form reveal-right" id="appointmentForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label data-i18n="form.name">Ad Soyad *</label>
+            <input type="text" id="appt-name" placeholder="Adınız Soyadınız" data-i18n="ph.full_name" required />
+          </div>
+          <div class="form-group">
+            <label data-i18n="form.email">E-posta *</label>
+            <input type="email" id="appt-email" placeholder="ornek@email.com" data-i18n="ph.email_addr" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label data-i18n="form.phone">Telefon</label>
+            <input type="tel" id="appt-phone" placeholder="+90 (530) 607 73 96" data-i18n="ph.phone_num" />
+          </div>
+          <div class="form-group">
+            <label data-i18n="form.date">Tercih Edilen Tarih *</label>
+            <input type="datetime-local" id="appt-datetime" required />
+          </div>
+        </div>
+        <div class="form-group full-width">
+          <label data-i18n="form.message">Mesajınız</label>
+          <textarea id="appt-message" rows="3" placeholder="Gayrimenkul hedeflerinizden bahsedin..." data-i18n="ph.appt_msg"></textarea>
+        </div>
+        <button type="submit" class="btn-gold full-btn" data-i18n="appointment.submit">Randevu Talep Et</button>
+        <div class="form-feedback" id="apptFeedback"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section id="testimonials">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow" data-i18n="testimonials.eyebrow">Müşteri Yorumları</p>
+        <h2 class="section-title" data-i18n="testimonials.title">Güvenin <em>Sesi</em></h2>
+      </div>
+
+      <div class="testimonials-slider reveal-up" id="testimonialsSlider">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <!-- JS tarafından doldurulacak -->
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevTest" aria-label="Önceki">&#8592;</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextTest" aria-label="Sonraki">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATES ==================== -->
+  <section id="certificates">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow" data-i18n="certificates.eyebrow">Sertifika & Eğitim</p>
+        <h2 class="section-title" data-i18n="certificates.title">Profesyonel <em>Yetkinlikler</em></h2>
+      </div>
+
+      <div class="cert-grid reveal-up">
+        <div class="cert-card">
+          <div class="cert-icon">&#127942;</div>
+          <h4 class="cert-title" data-i18n="cert.c1_title">Gayrimenkul Danışmanlığı</h4>
+          <p class="cert-sub" data-i18n="cert.c1_sub">Mesleki Yeterlilik Belgesi</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#128218;</div>
+          <h4 class="cert-title" data-i18n="cert.c2_title">Emlak Pazarlama</h4>
+          <p class="cert-sub" data-i18n="cert.c2_sub">Sertifikalı Eğitim Programı</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#127760;</div>
+          <h4 class="cert-title" data-i18n="cert.c3_title">Uluslararası Satış</h4>
+          <p class="cert-sub" data-i18n="cert.c3_sub">Yabancı Yatırımcı Eğitimi</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon">&#128202;</div>
+          <h4 class="cert-title" data-i18n="cert.c4_title">Mülk Değerleme</h4>
+          <p class="cert-sub" data-i18n="cert.c4_sub">Uzman Değerleme Sertifikası</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== BLOG ==================== -->
+  <section id="blog">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow" data-i18n="blog.eyebrow">Blog & Haberler</p>
+        <h2 class="section-title" data-i18n="blog.title">Gayrimenkul <em>Rehberi</em></h2>
+        <p class="section-subtitle" data-i18n="blog.subtitle">Antalya emlak piyasası ve yatırım dünyasından güncel bilgiler.</p>
+      </div>
+
+      <div class="blog-grid reveal-up">
+        <article class="blog-card">
+          <div class="blog-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80" alt="Antalya Emlak Piyasası" loading="lazy" />
+            <span class="blog-date">2026</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag" data-i18n="blog.tag_market">Piyasa Analizi</span>
+            <h3 class="blog-title" data-i18n="blog.a1_title">Antalya Emlak Piyasası Değerlendirmesi</h3>
+            <p class="blog-excerpt" data-i18n="blog.a1_desc">Antalya'da konut ve ticari gayrimenkul fiyatlarının son dönemdeki seyri, yatırımcılar için fırsat bölgeleri ve uzman öngörüleri.</p>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80" alt="Yabancı Yatırımcı Rehberi" loading="lazy" />
+            <span class="blog-date" data-i18n="blog.guide">Rehber</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag" data-i18n="blog.tag_intl">Uluslararası</span>
+            <h3 class="blog-title" data-i18n="blog.a2_title">Yabancı Yatırımcılar İçin Mülk Alma Rehberi</h3>
+            <p class="blog-excerpt" data-i18n="blog.a2_desc">Türkiye'de yabancı uyruklu kişilerin gayrimenkul edinme süreci, tapu işlemleri, oturma izni ve vergi avantajları hakkında kapsamlı rehber.</p>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-img-wrap">
+            <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=600&q=80" alt="Doğru Yatırım" loading="lazy" />
+            <span class="blog-date" data-i18n="blog.tips">İpuçları</span>
+          </div>
+          <div class="blog-body">
+            <span class="blog-tag" data-i18n="blog.tag_invest">Yatırım</span>
+            <h3 class="blog-title" data-i18n="blog.a3_title">Doğru Gayrimenkul Yatırımı Nasıl Yapılır?</h3>
+            <p class="blog-excerpt" data-i18n="blog.a3_desc">Gayrimenkul yatırımında dikkat edilmesi gereken temel kriterler, bölge seçimi, imar durumu kontrolü ve uzun vadeli değer analizi.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow" data-i18n="contact.eyebrow">İletişim</p>
+        <h2 class="section-title" data-i18n="contact.title">Benimle <em>İletişime Geçin</em></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal-left">
+          <div class="contact-detail">
+            <div class="contact-icon">&#128205;</div>
+            <div>
+              <p class="contact-label" data-i18n="contact.address_label">Ofis Adresi</p>
+              <p class="contact-value">Fener Mah. 1968. Sok. No:35<br />Muratpaşa, Antalya</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">&#128222;</div>
+            <div>
+              <p class="contact-label" data-i18n="contact.phone_label">Telefon / WhatsApp</p>
+              <p class="contact-value"><a href="tel:+905306077396">+90 (530) 607 73 96</a></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">&#9993;&#65039;</div>
+            <div>
+              <p class="contact-label" data-i18n="contact.email_label">E-posta</p>
+              <p class="contact-value"><a href="mailto:elif.tunceroglu@kww.com.tr">elif.tunceroglu@kww.com.tr</a></p>
+            </div>
+          </div>
+
+          <!-- Social -->
+          <div class="social-section">
+            <p class="contact-label" data-i18n="contact.instagram_label">Instagram'da Takip Edin</p>
+            <a href="https://www.instagram.com/elif.tunceroglu" target="_blank" rel="noopener" class="instagram-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @elif.tunceroglu
+            </a>
+          </div>
+
+          <!-- Google Maps -->
+          <div class="contact-map">
+            <iframe
+              src="https://maps.google.com/maps?q=Fener+Mahallesi+1968+Sokak+Muratpa%C5%9Fa+Antalya&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="220"
+              style="border:0; border-radius:4px; margin-top:1.5rem;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Çınar Ağacım Ofis Konumu"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form reveal-right" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="form.name">Ad Soyad *</label>
+              <input type="text" id="cnt-name" placeholder="Adınız Soyadınız" data-i18n="ph.full_name" required />
+            </div>
+            <div class="form-group">
+              <label data-i18n="form.email">E-posta *</label>
+              <input type="email" id="cnt-email" placeholder="ornek@email.com" data-i18n="ph.email_addr" required />
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label data-i18n="form.subject">Konu</label>
+            <input type="text" id="cnt-subject" placeholder="Gayrimenkul talebi, genel sorular..." data-i18n="ph.subject_hint" />
+          </div>
+          <div class="form-group full-width">
+            <label data-i18n="form.your_message">Mesajınız *</label>
+            <textarea id="cnt-message" rows="5" placeholder="Mesajınızı buraya yazın..." data-i18n="ph.cnt_msg" required></textarea>
+          </div>
+          <button type="submit" class="btn-gold full-btn" data-i18n="contact.submit">Mesajı Gönder</button>
+          <div class="form-feedback" id="contactFeedback"></div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo-main">Çınar Ağacım</span>
+        <span class="footer-logo-sub" data-i18n="logo.sub">Gayrimenkul Danışmanlığı</span>
+        <p class="footer-tagline" data-i18n="footer.tagline">Elif Tunceroğlu<br />Keller Williams</p>
+      </div>
+
+      <div class="footer-links">
+        <p class="footer-col-title" data-i18n="footer.menu">Menü</p>
+        <ul>
+          <li><a href="#hero" data-i18n="nav.home">Ana Sayfa</a></li>
+          <li><a href="#about" data-i18n="nav.about">Hakkımda</a></li>
+          <li><a href="#services" data-i18n="nav.services">Hizmetler</a></li>
+          <li><a href="#portfolio" data-i18n="nav.portfolio">Portföy</a></li>
+          <li><a href="#appointment" data-i18n="footer.appt">Randevu Al</a></li>
+          <li><a href="#testimonials" data-i18n="nav.testimonials">Referanslar</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">İletişim</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <p class="footer-col-title" data-i18n="footer.contact_title">İletişim Bilgileri</p>
+        <ul>
+          <li>Fener Mah. 1968. Sok. No:35<br />Muratpaşa, Antalya</li>
+          <li><a href="tel:+905306077396">+90 (530) 607 73 96</a></li>
+          <li><a href="mailto:elif.tunceroglu@kww.com.tr">elif.tunceroglu@kww.com.tr</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="footerYear"></span> Çınar Ağacım. <span data-i18n="footer.rights">Tüm Hakları Saklıdır.</span></p>
+      <p class="footer-legal" data-i18n="footer.legal">Gizlilik Politikası &middot; Kullanım Şartları</p>
+    </div>
+  </footer>
+
+  <!-- ==================== PROPERTY DETAIL MODAL ==================== -->
+  <div class="modal-overlay" id="propertyModal" style="display: none;">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">&#10005;</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ==================== WHATSAPP FLOAT ==================== -->
+  <a class="whatsapp-float" href="https://wa.me/905306077396" target="_blank" rel="noopener" aria-label="WhatsApp ile iletişime geç">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.923 15.923 0 0016.004 32C24.826 32 32 24.826 32 16.004 32 7.176 24.826 0 16.004 0zm9.298 22.602c-.388 1.094-2.276 2.094-3.14 2.178-.788.078-1.772.112-2.862-.178-.66-.178-1.508-.414-2.59-.812-4.548-1.666-7.52-6.27-7.748-6.566-.226-.296-1.842-2.454-1.842-4.68 0-2.228 1.166-3.322 1.58-3.774.388-.42 1.004-.588 1.318-.588.16 0 .318.008.454.014.414.018.622.042.896.694.342.808 1.176 2.784 1.28 2.986.104.202.174.44.034.708-.14.27-.208.44-.416.676-.208.236-.436.528-.624.708-.208.2-.424.418-.182.822.242.402 1.076 1.776 2.312 2.878 1.59 1.418 2.93 1.856 3.348 2.064.416.208.66.174.902-.104.242-.28 1.042-1.216 1.32-1.634.278-.416.556-.348.936-.208.382.14 2.42 1.142 2.836 1.35.416.208.692.312.796.484.104.174.104.996-.284 2.09z" fill="white"/>
+    </svg>
+  </a>
+
+  <!-- EMAILJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init('xF59W89TBVdNDXPn5');</script>
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+  <!-- NEXA BOT CUSTOM WIDGET -->
+  <div id="nexabot-bubble" onclick="toggleNexaBot()" title="Yapay Zeka Asistan">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.956 9.956 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" fill="white" opacity="0.9"/>
+      <circle cx="8.5" cy="12" r="1.2" fill="#B8914E"/>
+      <circle cx="12" cy="12" r="1.2" fill="#B8914E"/>
+      <circle cx="15.5" cy="12" r="1.2" fill="#B8914E"/>
+    </svg>
+  </div>
+  <div id="nexabot-frame-wrap">
+    <button id="nexabot-close" onclick="toggleNexaBot()">✕</button>
+    <iframe id="nexabot-iframe" src="https://realnexabot-production.up.railway.app/widget/f56b373f-b4b1-43d7-966c-310e8071382f" frameborder="0" allow="microphone"></iframe>
+  </div>
+  <script>
+    function toggleNexaBot() {
+      const wrap = document.getElementById('nexabot-frame-wrap');
+      wrap.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
