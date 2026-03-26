@@ -1263,7 +1263,7 @@ textarea { resize: vertical; }
   object-fit: contain;
   display: block;
 }
-.modal-body { padding: 2rem 2.5rem 2.5rem; }
+.modal-body { padding: 2rem 4rem 2.5rem 2.5rem; }
 .modal-body .prop-price {
   font-family: var(--font-display);
   font-size: 2rem;
