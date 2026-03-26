@@ -1386,13 +1386,20 @@ textarea { resize: vertical; }
   #appointment { padding: 6rem 0; }
 
   .whatsapp-float::before { display: none; }
+
+  /* Modal mobile */
+  .modal-overlay { padding: 0.5rem; align-items: flex-end; }
+  .modal-box { max-height: 92vh; border-radius: 12px 12px 0 0; }
+  .modal-content { flex-direction: column; max-height: none; overflow: visible; }
+  .modal-content img { max-height: 45vh; width: 100%; object-fit: cover; }
+  .modal-body { padding: 1.2rem 1.2rem 1.8rem; }
+  .modal-body .prop-price { font-size: 1.4rem; }
+  .modal-body .prop-title { font-size: 1.1rem; }
 }
 
 @media (max-width: 480px) {
   .section-container { padding: 0 1.2rem; }
   .hero-title { font-size: 2.8rem; }
-  .modal-body { padding: 1.5rem; }
-  .modal-body .prop-price { font-size: 1.5rem; }
   .cert-grid { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; }
 }
