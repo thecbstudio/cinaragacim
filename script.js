@@ -349,11 +349,11 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 /* ── 6. Testimonials Slider ──────────────────────────────────── */
 const testimonials = [
   {
-    quote: "Elif Hanım ile çalışmak harika bir deneyimdi. Muratpaşa'da hayalimiz olan daireyi çok kısa sürede buldu. Her aşamada profesyonel ve güler yüzlü yaklaşımı sayesinde süreç çok kolay geçti.",
-    quote_en: "Working with Elif was a wonderful experience. She found us the apartment of our dreams in Muratpaşa in no time. Her professional and friendly approach made the whole process very smooth.",
-    name: "Mehmet & Ayşe Yıldız",
-    role: "Daire Alıcısı, Muratpaşa",
-    role_en: "Apartment Buyers, Muratpaşa",
+    quote: "Belek'te villa satın alma sürecinde Elif Hanım'ın desteği paha biçilemezdi. Bölgeyi çok iyi tanıyor; doğru fiyat analizi ve kararlı müzakeresiyle hayalimizin çok ötesinde bir villa bulduk. Her adımda yanımızda oldu.",
+    quote_en: "Elif's support during our villa purchase in Belek was invaluable. She knows the area very well; with accurate price analysis and confident negotiation, she found us a villa far beyond our dreams.",
+    name: "Mustafa Efren",
+    role: "Villa Alıcısı, Belek",
+    role_en: "Villa Buyer, Belek",
     stars: 5
   },
   {
@@ -365,17 +365,17 @@ const testimonials = [
     stars: 5
   },
   {
-    quote: "Konyaaltı'ndaki dairemizi satarken Elif Hanım'ın piyasa bilgisi ve pazarlama stratejisi sayesinde beklediğimizin üzerinde bir fiyata sattık. Kesinlikle tavsiye ediyorum.",
-    quote_en: "When selling our apartment in Konyaaltı, thanks to Elif's market knowledge and marketing strategy, we sold it above our expectations. Highly recommended.",
-    name: "Canan Demir",
-    role: "Mülk Satıcısı, Konyaaltı",
-    role_en: "Property Seller, Konyaaltı",
+    quote: "Altıntaş'ta işyerim için kiralık dükkan arayışımdayken Elif Hanım devreye girdi. Kısa sürede merkezi konumda, bütçeme tam uyan bir dükkan buldu. Kira sözleşmesi sürecinde de yanımda oldu, son derece memnun kaldım.",
+    quote_en: "When I was looking for a shop to rent in Altıntaş, Elif stepped in. She quickly found a centrally located shop that perfectly fit my budget and supported me throughout the lease process.",
+    name: "Fehmi Orhan",
+    role: "Kiracı, Altıntaş",
+    role_en: "Tenant, Altıntaş",
     stars: 5
   },
   {
     quote: "Kepez'de yatırım amaçlı bir arsa arıyordum. Elif Hanım bana bölgeyi çok iyi analiz ederek sundu ve doğru kararı vermemi sağladı. Çınar Ağacım'ı herkese öneriyorum!",
     quote_en: "I was looking for investment land in Kepez. Elif presented me with an excellent regional analysis and helped me make the right decision. I recommend Çınar Ağacım to everyone!",
-    name: "Ali Kara",
+    name: "Nurhan Okyay",
     role: "Yatırımcı, Kepez",
     role_en: "Investor, Kepez",
     stars: 5
