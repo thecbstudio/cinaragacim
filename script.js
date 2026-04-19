@@ -346,7 +346,91 @@ modalClose.addEventListener('click', closeModal);
 modalOverlay.addEventListener('click', e => { if (e.target === modalOverlay) closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
-/* ── 6. Testimonials Slider ──────────────────────────────────── */
+/* ── 6. Blog Modal ───────────────────────────────────────────── */
+const blogPosts = [
+  {
+    img: 'https://images.unsplash.com/photo-1571406384698-25387dc7f3bc?w=800&q=80',
+    tag: 'Piyasa Analizi',
+    date: 'Nisan 2026',
+    title: "Antalya'da 2026 İlk Çeyrek: Konut Fiyatları ve Talep Artışı",
+    body: `<p>TCMB'nin 2025 yılı sonundan itibaren sürdürdüğü faiz indirim politikası, Antalya konut piyasasına olumlu yansıdı. 2026'nın ilk çeyreğinde şehir genelinde konut satışları bir önceki yıla kıyasla %28 arttı.</p>
+<p><strong>Öne çıkan bölgeler:</strong></p>
+<ul style="padding-left:1.2rem;line-height:2">
+  <li><strong>Konyaaltı:</strong> Yıllık %43 fiyat artışı — deniz manzaralı projeler hızla satışta</li>
+  <li><strong>Lara:</strong> %38 artış — lüks konut talebi rekor kırdı</li>
+  <li><strong>Kepez:</strong> Uygun fiyatlı segmentte stok eridi, yeni projeler başladı</li>
+  <li><strong>Aksu / Döşemealtı:</strong> Gelişen altyapıyla yatırımcıların gözdesi</li>
+</ul>
+<p>Uzmanlar, faiz düşüşünün devam etmesi ve turizm sezonunun erken açılmasıyla birlikte 2026 yılının tamamında konut değerlerinin %35-50 bandında artmaya devam edeceğini öngörüyor.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Portföyümüzde Antalya'nın tüm bölgelerinde seçkin ilanlar mevcuttur. Randevu için WhatsApp'tan ulaşın.</p>`
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=80',
+    tag: 'Yatırım',
+    date: 'Nisan 2026',
+    title: "Belek ve Serik'te Villa Yatırımı: Kira Getirisi Yüzde 12'ye Ulaştı",
+    body: `<p>Türkiye'nin golf ve turizm başkenti Belek, 2026 sezonunda rekor ziyaretçi beklentisiyle yatırımcıların en çok ilgi gösterdiği bölge olmaya devam ediyor.</p>
+<p><strong>Neden Belek?</strong></p>
+<ul style="padding-left:1.2rem;line-height:2">
+  <li>7 uluslararası golf sahası, 5 yıldızlı otel kompleksleri</li>
+  <li>Nisan–Ekim arası yüksek sezon — kısa dönem kiralama zirveye ulaşıyor</li>
+  <li>Havalimanına 35 km mesafe, ulaşım kolay</li>
+  <li>Yıllık brüt kira getirisi: <strong>%10–12</strong></li>
+</ul>
+<p><strong>Serik'te fırsatlar:</strong> Belek'e yakınlığı ve daha makul fiyatlarıyla Serik, uzun vadeli değer artışı arayan yatırımcılar için ideal.</p>
+<p>Golf bölgesindeki villa değerleri son 2 yılda %65 artış gösterirken, kira gelirleri de paralel yükseldi.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Belek ve Serik'teki satılık villa portföyümüz için bizimle iletişime geçin.</p>`
+  },
+  {
+    img: 'https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?w=800&q=80',
+    tag: 'Uluslararası',
+    date: 'Nisan 2026',
+    title: "Yabancı Alıcılara Türkiye'de Mülk: 2026 Güncel Mevzuat ve Fırsatlar",
+    body: `<p>Türkiye, 2026 yılında yabancı uyruklu alıcılar için gayrimenkul edinim süreçlerini daha da kolaylaştırdı. Antalya bu kategoride İstanbul'un ardından en çok tercih edilen şehir konumunda.</p>
+<p><strong>2026 güncel bilgiler:</strong></p>
+<ul style="padding-left:1.2rem;line-height:2">
+  <li>Tapu işlemleri ortalama <strong>3–5 iş günü</strong>nde tamamlanıyor</li>
+  <li><strong>400.000 USD</strong> ve üzeri yatırımlarda Türk vatandaşlığı hakkı geçerli</li>
+  <li>Kısa dönem oturma izni mülk sahiplerine otomatik tanınıyor</li>
+  <li>Rus, Alman, İngiliz ve Ukraynalı alıcıların yoğunluğu artıyor</li>
+</ul>
+<p><strong>Dikkat edilmesi gerekenler:</strong> Tapu devri öncesinde imar durumu, belediye borçları ve tapu sicil kayıtları mutlaka kontrol edilmeli. Bu süreçlerin tamamında danışmanınız sizin yanınızda olmalı.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Türkçe ve İngilizce destek için Elif Hanım ile doğrudan iletişime geçin.</p>`
+  }
+];
+
+function openBlog(idx) {
+  const p = blogPosts[idx];
+  document.getElementById('blogModalContent').innerHTML = `
+    <img src="${p.img}" alt="${p.title}" style="width:100%;max-height:320px;object-fit:cover;display:block" />
+    <div style="padding:2rem 2.5rem 2.5rem">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:1rem">
+        <span style="font-size:0.72rem;letter-spacing:0.1em;color:var(--gold);font-family:var(--font-body);text-transform:uppercase">${p.tag}</span>
+        <span style="color:var(--border)">·</span>
+        <span style="font-size:0.75rem;color:var(--text-muted)">${p.date}</span>
+      </div>
+      <h2 style="font-family:var(--font-display);font-size:1.5rem;color:var(--text-primary);margin-bottom:1.2rem;line-height:1.3">${p.title}</h2>
+      <div style="font-size:0.92rem;color:var(--text-light);line-height:1.9">${p.body}</div>
+      <a href="#appointment" class="btn-gold" style="margin-top:1.8rem;display:inline-block" onclick="closeBlog()">Randevu Al</a>
+    </div>
+  `;
+  document.getElementById('blogModal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeBlog() {
+  document.getElementById('blogModal').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const bc = document.getElementById('blogClose');
+  if (bc) bc.addEventListener('click', closeBlog);
+  const bm = document.getElementById('blogModal');
+  if (bm) bm.addEventListener('click', e => { if (e.target === bm) closeBlog(); });
+});
+
+/* ── 7. Testimonials Slider ──────────────────────────────────── */
 const testimonials = [
   {
     quote: "Belek'te villa satın alma sürecinde Elif Hanım'ın desteği paha biçilemezdi. Bölgeyi çok iyi tanıyor; doğru fiyat analizi ve kararlı müzakeresiyle hayalimizin çok ötesinde bir villa bulduk. Her adımda yanımızda oldu.",

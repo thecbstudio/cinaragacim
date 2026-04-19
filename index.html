@@ -379,41 +379,52 @@
       </div>
 
       <div class="blog-grid reveal-up">
-        <article class="blog-card">
+        <article class="blog-card" onclick="openBlog(0)" style="cursor:pointer">
           <div class="blog-img-wrap">
-            <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=600&q=80" alt="Antalya Konut Piyasası 2026" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1571406384698-25387dc7f3bc?w=600&q=80" alt="Antalya Konyaaltı Sahili" loading="lazy" />
             <span class="blog-date">Nisan 2026</span>
           </div>
           <div class="blog-body">
             <span class="blog-tag" data-i18n="blog.tag_market">Piyasa Analizi</span>
             <h3 class="blog-title" data-i18n="blog.a1_title">Antalya'da 2026 İlk Çeyrek: Konut Fiyatları ve Talep Artışı</h3>
-            <p class="blog-excerpt" data-i18n="blog.a1_desc">TCMB'nin faiz indirim süreciyle birlikte Antalya'da konut talebinde belirgin canlanma yaşanıyor. Kepez, Aksu ve Döşemealtı'nda yeni proje stoku hızla eriyorken, Konyaaltı ve Lara'da fiyatlar yıllık yüzde 40'ın üzerinde artış kaydetti.</p>
+            <p class="blog-excerpt" data-i18n="blog.a1_desc">TCMB'nin faiz indirim süreciyle birlikte Antalya'da konut talebinde belirgin canlanma yaşanıyor...</p>
+            <span class="blog-read-more">Devamını Oku →</span>
           </div>
         </article>
 
-        <article class="blog-card">
+        <article class="blog-card" onclick="openBlog(1)" style="cursor:pointer">
           <div class="blog-img-wrap">
-            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80" alt="Belek Turizm Yatırımı" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=600&q=80" alt="Belek Lüks Villa" loading="lazy" />
             <span class="blog-date">Nisan 2026</span>
           </div>
           <div class="blog-body">
             <span class="blog-tag" data-i18n="blog.tag_invest">Yatırım</span>
             <h3 class="blog-title" data-i18n="blog.a2_title">Belek ve Serik'te Villa Yatırımı: Kira Getirisi Yüzde 12'ye Ulaştı</h3>
-            <p class="blog-excerpt" data-i18n="blog.a2_desc">2026 turizm sezonunda rekor ziyaretçi beklentisiyle Belek ve Serik bölgesindeki kiralık villalara talep patladı. Kısa dönem kiralamada yıllık brüt getiri yüzde 10-12 bandına yükselirken, Golf bölgesindeki mülkler en yüksek değer artışını yaşıyor.</p>
+            <p class="blog-excerpt" data-i18n="blog.a2_desc">2026 turizm sezonunda rekor ziyaretçi beklentisiyle Belek ve Serik bölgesindeki kiralık villalara talep patladı...</p>
+            <span class="blog-read-more">Devamını Oku →</span>
           </div>
         </article>
 
-        <article class="blog-card">
+        <article class="blog-card" onclick="openBlog(2)" style="cursor:pointer">
           <div class="blog-img-wrap">
-            <img src="https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600&q=80" alt="Antalya Kaleiçi - Yabancı Alıcılar" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?w=600&q=80" alt="Antalya Kaleiçi" loading="lazy" />
             <span class="blog-date">Nisan 2026</span>
           </div>
           <div class="blog-body">
             <span class="blog-tag" data-i18n="blog.tag_intl">Uluslararası</span>
             <h3 class="blog-title" data-i18n="blog.a3_title">Yabancı Alıcılara Türkiye'de Mülk: 2026 Güncel Mevzuat ve Fırsatlar</h3>
-            <p class="blog-excerpt" data-i18n="blog.a3_desc">Türkiye'de yabancı uyruklu kişilerin gayrimenkul edinmesi 2026'da daha da kolaylaştı. Antalya'da Rus, Alman ve İngiliz alıcıların yoğunluğu artarken, 400.000 USD üzeri yatırımlarda vatandaşlık hakkı hâlâ geçerliliğini koruyor.</p>
+            <p class="blog-excerpt" data-i18n="blog.a3_desc">Türkiye'de yabancı uyruklu kişilerin gayrimenkul edinmesi 2026'da daha da kolaylaştı...</p>
+            <span class="blog-read-more">Devamını Oku →</span>
           </div>
         </article>
+      </div>
+
+      <!-- Blog Modal -->
+      <div class="modal-overlay" id="blogModal" style="display:none">
+        <div class="modal-box" style="max-width:680px">
+          <button class="modal-close" id="blogClose">✕</button>
+          <div id="blogModalContent"></div>
+        </div>
       </div>
     </div>
   </section>
