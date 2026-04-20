@@ -350,9 +350,10 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 const blogPosts = [
   {
     img: 'https://images.unsplash.com/photo-1665130529485-d10016415696?w=800&q=80',
-    tag: 'Piyasa Analizi',
-    date: 'Nisan 2026',
+    tag: 'Piyasa Analizi', tag_en: 'Market Analysis',
+    date: 'Nisan 2026', date_en: 'April 2026',
     title: "Antalya'da 2026 İlk Çeyrek: Konut Fiyatları ve Talep Artışı",
+    title_en: "Antalya Q1 2026: Housing Prices & Rising Demand",
     body: `<p>TCMB'nin 2025 yılı sonundan itibaren sürdürdüğü faiz indirim politikası, Antalya konut piyasasına olumlu yansıdı. 2026'nın ilk çeyreğinde şehir genelinde konut satışları bir önceki yıla kıyasla %28 arttı.</p>
 <p><strong>Öne çıkan bölgeler:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
@@ -362,13 +363,24 @@ const blogPosts = [
   <li><strong>Aksu / Döşemealtı:</strong> Gelişen altyapıyla yatırımcıların gözdesi</li>
 </ul>
 <p>Uzmanlar, faiz düşüşünün devam etmesi ve turizm sezonunun erken açılmasıyla birlikte 2026 yılının tamamında konut değerlerinin %35-50 bandında artmaya devam edeceğini öngörüyor.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Portföyümüzde Antalya'nın tüm bölgelerinde seçkin ilanlar mevcuttur. Randevu için WhatsApp'tan ulaşın.</p>`
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Portföyümüzde Antalya'nın tüm bölgelerinde seçkin ilanlar mevcuttur. Randevu için WhatsApp'tan ulaşın.</p>`,
+    body_en: `<p>The TCMB's ongoing rate-cut policy since late 2025 has had a positive impact on Antalya's residential market. In Q1 2026, city-wide home sales rose 28% year-on-year.</p>
+<p><strong>Top performing districts:</strong></p>
+<ul style="padding-left:1.2rem;line-height:2">
+  <li><strong>Konyaaltı:</strong> 43% annual price growth — sea-view projects selling fast</li>
+  <li><strong>Lara:</strong> 38% growth — luxury housing demand broke records</li>
+  <li><strong>Kepez:</strong> Affordable segment inventory dried up, new projects launched</li>
+  <li><strong>Aksu / Döşemealtı:</strong> Investor favourite thanks to expanding infrastructure</li>
+</ul>
+<p>Experts forecast continued value increases of 35–50% throughout 2026 as interest rates fall further and the tourism season opens early.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">We have premium listings across all Antalya districts. Contact us on WhatsApp to arrange a viewing.</p>`
   },
   {
     img: 'https://images.unsplash.com/photo-1678889284769-b7dcbec1f082?w=800&q=80',
-    tag: 'Yatırım',
-    date: 'Nisan 2026',
+    tag: 'Yatırım', tag_en: 'Investment',
+    date: 'Nisan 2026', date_en: 'April 2026',
     title: "Belek ve Serik'te Villa Yatırımı: Kira Getirisi Yüzde 12'ye Ulaştı",
+    title_en: "Villa Investment in Belek & Serik: Rental Yields Hit 12%",
     body: `<p>Türkiye'nin golf ve turizm başkenti Belek, 2026 sezonunda rekor ziyaretçi beklentisiyle yatırımcıların en çok ilgi gösterdiği bölge olmaya devam ediyor.</p>
 <p><strong>Neden Belek?</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
@@ -379,13 +391,25 @@ const blogPosts = [
 </ul>
 <p><strong>Serik'te fırsatlar:</strong> Belek'e yakınlığı ve daha makul fiyatlarıyla Serik, uzun vadeli değer artışı arayan yatırımcılar için ideal.</p>
 <p>Golf bölgesindeki villa değerleri son 2 yılda %65 artış gösterirken, kira gelirleri de paralel yükseldi.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Belek ve Serik'teki satılık villa portföyümüz için bizimle iletişime geçin.</p>`
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Belek ve Serik'teki satılık villa portföyümüz için bizimle iletişime geçin.</p>`,
+    body_en: `<p>Belek — Turkey's golf and tourism capital — remains the most sought-after area for investors heading into the record-breaking 2026 season.</p>
+<p><strong>Why Belek?</strong></p>
+<ul style="padding-left:1.2rem;line-height:2">
+  <li>7 international golf courses, 5-star hotel complexes</li>
+  <li>High season April–October — short-term rental income peaks</li>
+  <li>35 km from the airport, easy access</li>
+  <li>Annual gross rental yield: <strong>10–12%</strong></li>
+</ul>
+<p><strong>Serik opportunities:</strong> With its proximity to Belek and more accessible prices, Serik is ideal for investors seeking long-term capital appreciation.</p>
+<p>Villa values in the Golf District rose 65% over the past two years while rental income grew in parallel.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Contact us to explore our villa portfolio in Belek and Serik.</p>`
   },
   {
     img: 'https://images.unsplash.com/photo-1752402917281-d9c57e7a9f9a?w=800&q=80',
-    tag: 'Uluslararası',
-    date: 'Nisan 2026',
+    tag: 'Uluslararası', tag_en: 'International',
+    date: 'Nisan 2026', date_en: 'April 2026',
     title: "Yabancı Alıcılara Türkiye'de Mülk: 2026 Güncel Mevzuat ve Fırsatlar",
+    title_en: "Buying Property in Turkey as a Foreigner: 2026 Updates & Opportunities",
     body: `<p>Türkiye, 2026 yılında yabancı uyruklu alıcılar için gayrimenkul edinim süreçlerini daha da kolaylaştırdı. Antalya bu kategoride İstanbul'un ardından en çok tercih edilen şehir konumunda.</p>
 <p><strong>2026 güncel bilgiler:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
@@ -395,23 +419,39 @@ const blogPosts = [
   <li>Rus, Alman, İngiliz ve Ukraynalı alıcıların yoğunluğu artıyor</li>
 </ul>
 <p><strong>Dikkat edilmesi gerekenler:</strong> Tapu devri öncesinde imar durumu, belediye borçları ve tapu sicil kayıtları mutlaka kontrol edilmeli. Bu süreçlerin tamamında danışmanınız sizin yanınızda olmalı.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Türkçe ve İngilizce destek için Elif Hanım ile doğrudan iletişime geçin.</p>`
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Türkçe ve İngilizce destek için Elif Hanım ile doğrudan iletişime geçin.</p>`,
+    body_en: `<p>Turkey further simplified property acquisition for foreign nationals in 2026. Antalya ranks second only to Istanbul as the most preferred city among international buyers.</p>
+<p><strong>2026 key facts:</strong></p>
+<ul style="padding-left:1.2rem;line-height:2">
+  <li>Title deed transfers completed in an average of <strong>3–5 business days</strong></li>
+  <li>Turkish citizenship by investment available for purchases of <strong>$400,000+</strong></li>
+  <li>Short-term residence permit automatically granted to property owners</li>
+  <li>Growing demand from Russian, German, British and Ukrainian buyers</li>
+</ul>
+<p><strong>Important notes:</strong> Before title transfer, always verify zoning status, municipal debts and land registry records. Your advisor should be by your side throughout the entire process.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Elif speaks both Turkish and English — contact her directly for a personalised consultation.</p>`
   }
 ];
 
 function openBlog(idx) {
   const p = blogPosts[idx];
+  const isEn = currentLang === 'en';
+  const tag   = isEn ? p.tag_en   : p.tag;
+  const date  = isEn ? p.date_en  : p.date;
+  const title = isEn ? p.title_en : p.title;
+  const body  = isEn ? p.body_en  : p.body;
+  const btnLabel = isEn ? 'Book Appointment' : 'Randevu Al';
   document.getElementById('blogModalContent').innerHTML = `
-    <img src="${p.img}" alt="${p.title}" style="width:100%;max-height:320px;object-fit:cover;display:block" />
+    <img src="${p.img}" alt="${title}" style="width:100%;max-height:320px;object-fit:cover;display:block" />
     <div style="padding:2rem 2.5rem 2.5rem">
       <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:1rem">
-        <span style="font-size:0.72rem;letter-spacing:0.1em;color:var(--gold);font-family:var(--font-body);text-transform:uppercase">${p.tag}</span>
+        <span style="font-size:0.72rem;letter-spacing:0.1em;color:var(--gold);font-family:var(--font-body);text-transform:uppercase">${tag}</span>
         <span style="color:var(--border)">·</span>
-        <span style="font-size:0.75rem;color:var(--text-muted)">${p.date}</span>
+        <span style="font-size:0.75rem;color:var(--text-muted)">${date}</span>
       </div>
-      <h2 style="font-family:var(--font-display);font-size:1.5rem;color:var(--text-primary);margin-bottom:1.2rem;line-height:1.3">${p.title}</h2>
-      <div style="font-size:0.92rem;color:var(--text-light);line-height:1.9">${p.body}</div>
-      <a href="#appointment" class="btn-gold" style="margin-top:1.8rem;display:inline-block" onclick="closeBlog()">Randevu Al</a>
+      <h2 style="font-family:var(--font-display);font-size:1.5rem;color:var(--text-primary);margin-bottom:1.2rem;line-height:1.3">${title}</h2>
+      <div style="font-size:0.92rem;color:var(--text-light);line-height:1.9">${body}</div>
+      <a href="#appointment" class="btn-gold" style="margin-top:1.8rem;display:inline-block" onclick="closeBlog()">${btnLabel}</a>
     </div>
   `;
   document.getElementById('blogModal').style.display = 'flex';
