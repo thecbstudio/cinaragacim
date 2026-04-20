@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "website-anneme",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", "C:/Users/cinar/Downloads/Website anneme", "-p", "8080", "-c-1"],
+      "port": 8080
+    }
+  ]
+}

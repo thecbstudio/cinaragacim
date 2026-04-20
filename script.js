@@ -349,7 +349,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 /* ── 6. Blog Modal ───────────────────────────────────────────── */
 const blogPosts = [
   {
-    img: 'https://images.unsplash.com/photo-1571406384698-25387dc7f3bc?w=800&q=80',
+    img: 'portfoy/11-konyaalti-daire.jpg',
     tag: 'Piyasa Analizi',
     date: 'Nisan 2026',
     title: "Antalya'da 2026 İlk Çeyrek: Konut Fiyatları ve Talep Artışı",
@@ -365,7 +365,7 @@ const blogPosts = [
 <p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Portföyümüzde Antalya'nın tüm bölgelerinde seçkin ilanlar mevcuttur. Randevu için WhatsApp'tan ulaşın.</p>`
   },
   {
-    img: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=80',
+    img: 'portfoy/1-belek-villa.jpg',
     tag: 'Yatırım',
     date: 'Nisan 2026',
     title: "Belek ve Serik'te Villa Yatırımı: Kira Getirisi Yüzde 12'ye Ulaştı",
@@ -382,7 +382,7 @@ const blogPosts = [
 <p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Belek ve Serik'teki satılık villa portföyümüz için bizimle iletişime geçin.</p>`
   },
   {
-    img: 'https://images.unsplash.com/photo-1570275239925-4af0aa93a0dc?w=800&q=80',
+    img: 'portfoy/3-kaleici-otel.jpg',
     tag: 'Uluslararası',
     date: 'Nisan 2026',
     title: "Yabancı Alıcılara Türkiye'de Mülk: 2026 Güncel Mevzuat ve Fırsatlar",
@@ -422,6 +422,8 @@ function closeBlog() {
   document.getElementById('blogModal').style.display = 'none';
   document.body.style.overflow = '';
 }
+window.openBlog = openBlog;
+window.closeBlog = closeBlog;
 
 document.addEventListener('DOMContentLoaded', () => {
   const bc = document.getElementById('blogClose');
