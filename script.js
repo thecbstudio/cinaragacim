@@ -351,85 +351,83 @@ const blogPosts = [
   {
     img: 'https://images.unsplash.com/photo-1665130529485-d10016415696?w=800&q=80',
     tag: 'Piyasa Analizi', tag_en: 'Market Analysis',
-    date: 'Nisan 2026', date_en: 'April 2026',
-    title: "Antalya'da 2026 İlk Çeyrek: Konut Fiyatları ve Talep Artışı",
-    title_en: "Antalya Q1 2026: Housing Prices & Rising Demand",
-    body: `<p>TCMB'nin 2025 yılı sonundan itibaren sürdürdüğü faiz indirim politikası, Antalya konut piyasasına olumlu yansıdı. 2026'nın ilk çeyreğinde şehir genelinde konut satışları bir önceki yıla kıyasla %28 arttı.</p>
-<p><strong>Öne çıkan bölgeler:</strong></p>
+    date: 'Haziran 2026', date_en: 'June 2026',
+    title: "Antalya Yaz 2026: Turizm Sezonu Konut Fiyatlarını Uçurdu",
+    title_en: "Antalya Summer 2026: Tourism Season Sends Property Prices Soaring",
+    body: `<p>2026 yaz sezonunun güçlü açılmasıyla birlikte Antalya'da konut fiyatları yılın ilk yarısında ortalama %52 arttı. Yabancı turist akışının erken başlaması ve kısa dönem kiralama talebinin patlaması, özellikle sahil bölgelerinde ciddi fiyat hareketine yol açtı.</p>
+<p><strong>Haziran 2026 bölge bazlı durum:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
-  <li><strong>Konyaaltı:</strong> Yıllık %43 fiyat artışı — deniz manzaralı projeler hızla satışta</li>
-  <li><strong>Lara:</strong> %38 artış — lüks konut talebi rekor kırdı</li>
-  <li><strong>Kepez:</strong> Uygun fiyatlı segmentte stok eridi, yeni projeler başladı</li>
-  <li><strong>Aksu / Döşemealtı:</strong> Gelişen altyapıyla yatırımcıların gözdesi</li>
+  <li><strong>Konyaaltı:</strong> Deniz manzaralı dairelerde m² fiyatı 85.000 TL'yi aştı — stok hızla eriyor</li>
+  <li><strong>Lara–Kundu:</strong> Yaz kiralama gelirleri geçen yılın 2 katına çıktı</li>
+  <li><strong>Kepez:</strong> Yeni metro hattı projesiyle fiyatlarda %30 sıçrama</li>
+  <li><strong>Döşemealtı:</strong> Villa projeleri yatırımcıların ilk tercihi olmaya devam ediyor</li>
 </ul>
-<p>Uzmanlar, faiz düşüşünün devam etmesi ve turizm sezonunun erken açılmasıyla birlikte 2026 yılının tamamında konut değerlerinin %35-50 bandında artmaya devam edeceğini öngörüyor.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Portföyümüzde Antalya'nın tüm bölgelerinde seçkin ilanlar mevcuttur. Randevu için WhatsApp'tan ulaşın.</p>`,
-    body_en: `<p>The TCMB's ongoing rate-cut policy since late 2025 has had a positive impact on Antalya's residential market. In Q1 2026, city-wide home sales rose 28% year-on-year.</p>
-<p><strong>Top performing districts:</strong></p>
+<p>Uzmanlar, sezonun Ekim'e kadar güçlü devam edeceğini ve yılsonuna kadar toplam değer artışının %60-70 bandında gerçekleşeceğini öngörüyor.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Yaz fırsatlarını kaçırmayın — portföyümüzdeki güncel ilanlar için hemen randevu alın.</p>`,
+    body_en: `<p>With the 2026 summer season off to a strong start, Antalya property prices surged an average of 52% in the first half of the year. Early tourist arrivals and booming short-term rental demand have driven significant price movement, especially in coastal districts.</p>
+<p><strong>June 2026 district overview:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
-  <li><strong>Konyaaltı:</strong> 43% annual price growth — sea-view projects selling fast</li>
-  <li><strong>Lara:</strong> 38% growth — luxury housing demand broke records</li>
-  <li><strong>Kepez:</strong> Affordable segment inventory dried up, new projects launched</li>
-  <li><strong>Aksu / Döşemealtı:</strong> Investor favourite thanks to expanding infrastructure</li>
+  <li><strong>Konyaaltı:</strong> Sea-view apartments exceeded ₺85,000/m² — inventory depleting fast</li>
+  <li><strong>Lara–Kundu:</strong> Summer rental income doubled compared to last year</li>
+  <li><strong>Kepez:</strong> New metro line project triggered a 30% price jump</li>
+  <li><strong>Döşemealtı:</strong> Villa projects remain the top pick for investors</li>
 </ul>
-<p>Experts forecast continued value increases of 35–50% throughout 2026 as interest rates fall further and the tourism season opens early.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">We have premium listings across all Antalya districts. Contact us on WhatsApp to arrange a viewing.</p>`
+<p>Experts predict the season will stay strong through October, with total year-end appreciation reaching 60–70%.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Don't miss summer opportunities — book a viewing for our latest listings today.</p>`
   },
   {
     img: 'https://images.unsplash.com/photo-1678889284769-b7dcbec1f082?w=800&q=80',
     tag: 'Yatırım', tag_en: 'Investment',
-    date: 'Nisan 2026', date_en: 'April 2026',
-    title: "Belek ve Serik'te Villa Yatırımı: Kira Getirisi Yüzde 12'ye Ulaştı",
-    title_en: "Villa Investment in Belek & Serik: Rental Yields Hit 12%",
-    body: `<p>Türkiye'nin golf ve turizm başkenti Belek, 2026 sezonunda rekor ziyaretçi beklentisiyle yatırımcıların en çok ilgi gösterdiği bölge olmaya devam ediyor.</p>
-<p><strong>Neden Belek?</strong></p>
+    date: 'Haziran 2026', date_en: 'June 2026',
+    title: "Kısa Dönem Kiralama Patlaması: Antalya'da Airbnb Getirisi Rekor Kırdı",
+    title_en: "Short-Term Rental Boom: Airbnb Returns in Antalya Hit Record Highs",
+    body: `<p>2026 yaz sezonunun açılmasıyla birlikte Antalya'daki kısa dönem kiralama gelirleri tarihi zirveye ulaştı. Özellikle Belek, Lara ve Konyaaltı'ndaki villa ve residence daireler, Mayıs-Haziran döneminde %95 doluluk oranı yakaladı.</p>
+<p><strong>Yatırımcılar için öne çıkan rakamlar:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
-  <li>7 uluslararası golf sahası, 5 yıldızlı otel kompleksleri</li>
-  <li>Nisan–Ekim arası yüksek sezon — kısa dönem kiralama zirveye ulaşıyor</li>
-  <li>Havalimanına 35 km mesafe, ulaşım kolay</li>
-  <li>Yıllık brüt kira getirisi: <strong>%10–12</strong></li>
+  <li>Belek villalarında gecelik kira: <strong>300–600 USD</strong> (sezon ortalaması)</li>
+  <li>Konyaaltı deniz manzaralı daire: aylık <strong>2.500–4.000 USD</strong></li>
+  <li>Yıllık brüt kira getirisi: <strong>%12–15</strong> (geçen yıl %10 idi)</li>
+  <li>Ortalama yatırım geri dönüş süresi: <strong>6–8 yıl</strong></li>
 </ul>
-<p><strong>Serik'te fırsatlar:</strong> Belek'e yakınlığı ve daha makul fiyatlarıyla Serik, uzun vadeli değer artışı arayan yatırımcılar için ideal.</p>
-<p>Golf bölgesindeki villa değerleri son 2 yılda %65 artış gösterirken, kira gelirleri de paralel yükseldi.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Belek ve Serik'teki satılık villa portföyümüz için bizimle iletişime geçin.</p>`,
-    body_en: `<p>Belek — Turkey's golf and tourism capital — remains the most sought-after area for investors heading into the record-breaking 2026 season.</p>
-<p><strong>Why Belek?</strong></p>
+<p><strong>Neden şimdi?</strong> Türk lirasının değer kaybı yabancı turistler için Antalya'yı son derece uygun fiyatlı hale getirirken, mülk sahipleri dolar bazında yüksek getiri elde ediyor.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Yatırıma uygun portföyümüz için bizimle iletişime geçin — doğru mülkle pasif gelir kazanın.</p>`,
+    body_en: `<p>As the 2026 summer season kicks off, short-term rental income in Antalya has reached an all-time high. Villas and residence apartments in Belek, Lara and Konyaaltı achieved 95% occupancy rates during May-June.</p>
+<p><strong>Key numbers for investors:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
-  <li>7 international golf courses, 5-star hotel complexes</li>
-  <li>High season April–October — short-term rental income peaks</li>
-  <li>35 km from the airport, easy access</li>
-  <li>Annual gross rental yield: <strong>10–12%</strong></li>
+  <li>Belek villa nightly rate: <strong>$300–600</strong> (season average)</li>
+  <li>Konyaaltı sea-view apartment: <strong>$2,500–4,000/month</strong></li>
+  <li>Annual gross rental yield: <strong>12–15%</strong> (up from 10% last year)</li>
+  <li>Average investment payback period: <strong>6–8 years</strong></li>
 </ul>
-<p><strong>Serik opportunities:</strong> With its proximity to Belek and more accessible prices, Serik is ideal for investors seeking long-term capital appreciation.</p>
-<p>Villa values in the Golf District rose 65% over the past two years while rental income grew in parallel.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Contact us to explore our villa portfolio in Belek and Serik.</p>`
+<p><strong>Why now?</strong> The Turkish lira's depreciation makes Antalya extremely affordable for foreign tourists, while property owners earn strong returns in USD terms.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Contact us to explore our investment-ready portfolio — earn passive income with the right property.</p>`
   },
   {
-    img: 'https://images.unsplash.com/photo-1752402917281-d9c57e7a9f9a?w=800&q=80',
+    img: 'https://images.unsplash.com/photo-1598703173645-d9eaa877d0b7?w=800&q=80',
     tag: 'Uluslararası', tag_en: 'International',
-    date: 'Nisan 2026', date_en: 'April 2026',
-    title: "Yabancı Alıcılara Türkiye'de Mülk: 2026 Güncel Mevzuat ve Fırsatlar",
-    title_en: "Buying Property in Turkey as a Foreigner: 2026 Updates & Opportunities",
-    body: `<p>Türkiye, 2026 yılında yabancı uyruklu alıcılar için gayrimenkul edinim süreçlerini daha da kolaylaştırdı. Antalya bu kategoride İstanbul'un ardından en çok tercih edilen şehir konumunda.</p>
-<p><strong>2026 güncel bilgiler:</strong></p>
+    date: 'Haziran 2026', date_en: 'June 2026',
+    title: "2026 Yaz: Yabancı Alıcılar Antalya'ya Akın Ediyor",
+    title_en: "Summer 2026: Foreign Buyers Flock to Antalya",
+    body: `<p>2026 yılının ilk yarısında Antalya'da yabancılara yapılan konut satışları geçen yılın aynı dönemine göre %40 arttı. Rusya, Almanya, İngiltere ve Ukrayna vatandaşları en aktif alıcı gruplarını oluştururken, Orta Doğu'dan gelen talep de belirgin şekilde yükseldi.</p>
+<p><strong>Yabancı alıcılar için Haziran 2026 güncellemeleri:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
-  <li>Tapu işlemleri ortalama <strong>3–5 iş günü</strong>nde tamamlanıyor</li>
-  <li><strong>400.000 USD</strong> ve üzeri yatırımlarda Türk vatandaşlığı hakkı geçerli</li>
-  <li>Kısa dönem oturma izni mülk sahiplerine otomatik tanınıyor</li>
-  <li>Rus, Alman, İngiliz ve Ukraynalı alıcıların yoğunluğu artıyor</li>
+  <li>Vatandaşlık yatırım limiti <strong>400.000 USD</strong> olarak devam ediyor</li>
+  <li>Tapu işlemleri artık <strong>2–3 iş günü</strong>nde tamamlanabiliyor</li>
+  <li>Yeni düzenleme: yabancı mülk sahiplerine <strong>5 yıllık oturma izni</strong> hakkı</li>
+  <li>Antalya Havalimanı'na 2026'da <strong>180+ direkt hat</strong> eklendi</li>
 </ul>
-<p><strong>Dikkat edilmesi gerekenler:</strong> Tapu devri öncesinde imar durumu, belediye borçları ve tapu sicil kayıtları mutlaka kontrol edilmeli. Bu süreçlerin tamamında danışmanınız sizin yanınızda olmalı.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Türkçe ve İngilizce destek için Elif Hanım ile doğrudan iletişime geçin.</p>`,
-    body_en: `<p>Turkey further simplified property acquisition for foreign nationals in 2026. Antalya ranks second only to Istanbul as the most preferred city among international buyers.</p>
-<p><strong>2026 key facts:</strong></p>
+<p><strong>Dikkat:</strong> Yaz sezonunda talep yoğunluğu nedeniyle popüler bölgelerde fiyatlar hızla yükseliyor. Erken karar vermek önemli avantaj sağlıyor.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Türkçe ve İngilizce tam destek — Elif Hanım ile hemen iletişime geçin.</p>`,
+    body_en: `<p>In the first half of 2026, foreign property sales in Antalya rose 40% year-on-year. Russian, German, British and Ukrainian nationals are the most active buyer groups, with Middle Eastern demand also growing noticeably.</p>
+<p><strong>June 2026 updates for foreign buyers:</strong></p>
 <ul style="padding-left:1.2rem;line-height:2">
-  <li>Title deed transfers completed in an average of <strong>3–5 business days</strong></li>
-  <li>Turkish citizenship by investment available for purchases of <strong>$400,000+</strong></li>
-  <li>Short-term residence permit automatically granted to property owners</li>
-  <li>Growing demand from Russian, German, British and Ukrainian buyers</li>
+  <li>Citizenship investment threshold remains at <strong>$400,000</strong></li>
+  <li>Title deed transfers now completed in <strong>2–3 business days</strong></li>
+  <li>New regulation: <strong>5-year residence permit</strong> for foreign property owners</li>
+  <li>Antalya Airport added <strong>180+ direct routes</strong> in 2026</li>
 </ul>
-<p><strong>Important notes:</strong> Before title transfer, always verify zoning status, municipal debts and land registry records. Your advisor should be by your side throughout the entire process.</p>
-<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Elif speaks both Turkish and English — contact her directly for a personalised consultation.</p>`
+<p><strong>Note:</strong> Due to high summer demand, prices in popular districts are rising fast. Early decisions provide a significant advantage.</p>
+<p style="margin-top:1.5rem;font-style:italic;color:var(--gold)">Full support in Turkish and English — contact Elif directly today.</p>`
   }
 ];
 
@@ -765,12 +763,14 @@ const translations = {
     'blog.tag_market': 'Market Analysis',
     'blog.tag_intl': 'International',
     'blog.tag_invest': 'Investment',
-    'blog.a1_title': 'Antalya Q1 2026: Housing Prices & Rising Demand',
-    'blog.a1_desc': 'As the TCMB continues rate cuts, Antalya\'s housing market sees a strong rebound. New project inventory in Kepez and Aksu is selling fast, while Konyaaltı and Lara recorded over 40% annual price growth.',
-    'blog.a2_title': 'Villa Investment in Belek & Serik: Rental Yields Hit 12%',
-    'blog.a2_desc': 'With record tourist arrivals expected for the 2026 season, demand for rental villas in Belek and Serik has surged. Short-term rental gross yields have reached 10–12%, with Golf District properties seeing the highest appreciation.',
-    'blog.a3_title': 'Buying Property in Turkey as a Foreigner: 2026 Updates',
-    'blog.a3_desc': 'Turkey made foreign property ownership even easier in 2026. Antalya sees growing interest from Russian, German and British buyers, and citizenship by investment for properties above $400,000 remains in effect.',
+    'blog.date': 'June 2026',
+    'blog.read_more': 'Read More →',
+    'blog.a1_title': 'Antalya Summer 2026: Tourism Season Sends Property Prices Soaring',
+    'blog.a1_desc': 'With the 2026 summer season off to a strong start, Antalya property prices surged an average of 52% in the first half of the year...',
+    'blog.a2_title': 'Short-Term Rental Boom: Airbnb Returns in Antalya Hit Record Highs',
+    'blog.a2_desc': 'As the 2026 summer season kicks off, short-term rental income in Antalya has reached an all-time high with 95% occupancy rates...',
+    'blog.a3_title': 'Summer 2026: Foreign Buyers Flock to Antalya',
+    'blog.a3_desc': 'In H1 2026, foreign property sales in Antalya rose 40%. New 5-year residence permit for property owners draws international investors...',
     'blog.guide': 'Guide',
     'blog.tips': 'Tips',
     'contact.eyebrow': 'Contact',
@@ -887,12 +887,14 @@ const translations = {
     'blog.tag_market': 'Piyasa Analizi',
     'blog.tag_intl': 'Uluslararas\u0131',
     'blog.tag_invest': 'Yat\u0131r\u0131m',
-    'blog.a1_title': "Antalya'da 2026 İlk Çeyrek: Konut Fiyatları ve Talep Artışı",
-    'blog.a1_desc': "TCMB'nin faiz indirim süreciyle Antalya'da konut talebinde belirgin canlanma var. Kepez, Aksu ve Döşemealtı'nda yeni proje stoku hızla eriyorken, Konyaaltı ve Lara'da fiyatlar yıllık %40'ın üzerinde arttı.",
-    'blog.a2_title': "Belek ve Serik'te Villa Yatırımı: Kira Getirisi %12'ye Ulaştı",
-    'blog.a2_desc': "2026 turizm sezonunda rekor ziyaretçi beklentisiyle Belek ve Serik'teki kiralık villalara talep patladı. Kısa dönem kiralamada yıllık brüt getiri %10-12 bandına yükselirken, Golf bölgesi mülkleri en yüksek değer artışını yaşıyor.",
-    'blog.a3_title': "Yabancı Alıcılara Türkiye'de Mülk: 2026 Güncel Mevzuat",
-    'blog.a3_desc': "Türkiye'de yabancı mülk edinimi 2026'da daha da kolaylaştı. Antalya'da Rus, Alman ve İngiliz alıcıların yoğunluğu artarken, 400.000 USD üzeri yatırımlarda vatandaşlık hakkı geçerliliğini koruyor.",
+    'blog.date': 'Haziran 2026',
+    'blog.read_more': 'Devamını Oku →',
+    'blog.a1_title': "Antalya Yaz 2026: Turizm Sezonu Konut Fiyatlarını Uçurdu",
+    'blog.a1_desc': "2026 yaz sezonunun güçlü açılmasıyla Antalya'da konut fiyatları yılın ilk yarısında ortalama %52 arttı...",
+    'blog.a2_title': "Kısa Dönem Kiralama Patlaması: Antalya'da Airbnb Getirisi Rekor Kırdı",
+    'blog.a2_desc': "2026 yaz sezonuyla birlikte Antalya'daki kısa dönem kiralama gelirleri tarihi zirveye ulaştı...",
+    'blog.a3_title': "2026 Yaz: Yabancı Alıcılar Antalya'ya Akın Ediyor",
+    'blog.a3_desc': "2026 ilk yarıda yabancılara konut satışları %40 arttı, yeni 5 yıllık oturma izni hakkı yabancı yatırımcıları çekiyor...",
     'blog.guide': 'Rehber',
     'blog.tips': '\u0130pu\u00e7lar\u0131',
     'contact.eyebrow': '\u0130leti\u015fim',
