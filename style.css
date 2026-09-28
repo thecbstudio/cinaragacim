@@ -291,7 +291,7 @@ section:not(#hero):not(#appointment) {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1800&q=80') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1800&q=70&auto=format') center/cover no-repeat;
 }
 
 .hero-overlay {
@@ -827,7 +827,7 @@ textarea { resize: vertical; }
 .appointment-bg {
   position: absolute;
   inset: 0;
-  background: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1800&q=80') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1800&q=70&auto=format') center/cover no-repeat;
   transform: scale(1.02);
   transition: transform 8s ease;
 }
@@ -1488,4 +1488,10 @@ textarea { resize: vertical; }
     bottom: 5.5rem;
     height: 70vh;
   }
+}
+
+/* mobilde 1800px arka plan gereksizdi (Lighthouse: LCP ~9 sn) — telefona 900px yeterli */
+@media (max-width: 768px) {
+  #hero { background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&q=70&auto=format'); }
+  .appointment-bg { background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&q=70&auto=format'); }
 }
